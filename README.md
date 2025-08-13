@@ -30,6 +30,3 @@ The report is optionally appended to existing historical reports and can be emai
   - datetime
   - os
 
----
-
-## 📂 Project Structure
