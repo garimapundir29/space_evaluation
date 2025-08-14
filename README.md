@@ -30,3 +30,23 @@ The report is optionally appended to existing historical reports and can be emai
   - datetime
   - os
 
+---
+
+## 📊 Output
+The generated HTML report contains:
+- **S3 Bucket Name** at the top.
+- **Folder Size Summary** in GB.
+- **Historical Report Table** showing:
+  - Date of analysis
+  - Total bucket size
+- **Interactive Folder Tree**:
+  - Parent bucket
+    - Folder 1 – *Size in GB*
+    - Folder 2 – *Size in GB*
+- **Example**:  
+
+| Date       | Total Size (GB) |
+|------------|-----------------|
+| 05-08-2024 | 1000 GB         |
+| 11-09-2024 | 400 GB          |
+
